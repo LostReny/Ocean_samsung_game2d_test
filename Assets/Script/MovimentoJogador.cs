@@ -10,10 +10,12 @@ public class MovimentoJogador : MonoBehaviour
 
     public float velocidade = 1;
 
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,12 +33,26 @@ public class MovimentoJogador : MonoBehaviour
         if (h > 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
+
         }
 
         else if (h < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
+
         }
+
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+        {
+            anim.SetBool("Andando", true);
+        }
+        else
+        {
+            anim.SetBool("Andando", false);
+        }
+
+        anim.SetBool("Andando", Mathf.Abs(rb.velocity.x) > 0);
+
 
     }
 }
