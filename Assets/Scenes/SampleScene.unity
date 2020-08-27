@@ -166,7 +166,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.56136525, g: 0.6622389, b: 0.8207547, a: 0}
+  m_BackGroundColor: {r: 0.81960785, g: 0.8105043, b: 0.56078434, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -232,6 +232,7 @@ GameObject:
   - component: {fileID: 711995681}
   - component: {fileID: 711995682}
   - component: {fileID: 711995683}
+  - component: {fileID: 711995684}
   m_Layer: 0
   m_Name: Parado
   m_TagString: Untagged
@@ -371,6 +372,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 711995681}
   velocidade: 8
+--- !u!114 &711995684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711995677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7358c52a64892f43b205511407373a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &746815888
 GameObject:
   m_ObjectHideFlags: 0
