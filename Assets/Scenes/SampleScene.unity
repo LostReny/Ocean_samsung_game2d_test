@@ -393,6 +393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7358c52a64892f43b205511407373a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 711995681}
+  forcaPulo: 250
 --- !u!1 &746815888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,6 +1238,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5242120204353910666, guid: a7bdc688c65a1fd42b0898175111540c,
+        type: 3}
+      propertyPath: distancia
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5242120204353910666, guid: a7bdc688c65a1fd42b0898175111540c,
+        type: 3}
+      propertyPath: forcaPulo
+      value: 250
+      objectReference: {fileID: 0}
     - target: {fileID: 5242120204353910670, guid: a7bdc688c65a1fd42b0898175111540c,
         type: 3}
       propertyPath: m_LocalPosition.x
