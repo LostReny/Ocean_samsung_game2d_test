@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 711995683}
   - component: {fileID: 711995684}
   m_Layer: 0
-  m_Name: Parado
+  m_Name: 'Personagem '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1311,7 +1311,7 @@ PrefabInstance:
     - target: {fileID: 5242120204353910707, guid: a7bdc688c65a1fd42b0898175111540c,
         type: 3}
       propertyPath: m_Name
-      value: Parado
+      value: 'Personagem '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a7bdc688c65a1fd42b0898175111540c, type: 3}

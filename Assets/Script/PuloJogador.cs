@@ -9,6 +9,7 @@ public class PuloJogador : MonoBehaviour
 
     public float forcaPulo;
 
+
     // Start is called before the first frame update
     void Start()
     {
